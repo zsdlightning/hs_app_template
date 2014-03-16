@@ -1,0 +1,14 @@
+{% extends "pages/page.html" %}
+{% load geoanalytics_tags pages_tags mezzanine_tags %}
+
+{% block main %}
+    {% set_page_permissions page %}
+<p>SWAT Share enables users to upload, share and edit their SWAT input data, run their uploaded model, download the output file, and visualize output results. For detailed information, please refer to the user manual </p>
+<hr/>
+<br>
+<br>
+<div align='left'>
+<iframe src="https://swatshare.rcac.purdue.edu/tool/SWATViewer.html" frameborder="0" scrolling="no" width="1200" height="768">
+</iframe> 
+</div>
+{% endblock %}
